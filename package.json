@@ -11,7 +11,8 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "doc": "./node_modules/.bin/jsdoc -d doc -c conf.jsdoc.json -r ./src"
     },
     "devDependencies": {
         "jsdoc": "^3.5.5"
